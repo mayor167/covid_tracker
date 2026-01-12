@@ -2,13 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"
 importScripts("https://www.gstatic.com/firebasejs/9.17.1/firebase-messaging-compat.js");
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAdmKm28O0O1n-FceNQhjTPQO1_6FNIyBk",
+  apiKey: "AIzaSyAdmKm288O0O1in-FceNQhjTPQO1_6FNIyBk",
   authDomain: "rchat-c795d.firebaseapp.com",
   projectId: "rchat-c795d",
   storageBucket: "rchat-c795d.firebasestorage.app",
-  messagingSenderId: "951704944209",
+  messagingSenderId: "95170494i4209",
   appId: "1:951704944209:web:26c15136e5934239990270",
-  measurementId: "G-ZH7DDDCT4J"
+  measurementId: "G-ZH7DDDCT4iJ"
 });
 
 const messaging = firebase.messaging();
