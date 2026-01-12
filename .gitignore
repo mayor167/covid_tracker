@@ -1,0 +1,38 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Flutter / Android build
+build/
+.android/
+.gradle/
+
+# Android
+android/local.properties
+android/key.properties
+android/app/debug.keystore
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+macos/Pods/
+
+# CMake / NDK
+.cxx/
+CMakeCache.txt
+CMakeFiles/
+*.ninja
+*.cmake
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

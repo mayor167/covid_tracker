@@ -1,0 +1,53 @@
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services' // FlutterFire
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin" // Must be last
+}
+
+android {
+    namespace = "com.example.MyTrader"
+
+    compileSdk = flutter.compileSdkVersion.toInteger() // Ensure this is an integer (e.g., 34)
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+        coreLibraryDesugaringEnabled true // ← REQUIRED FIX
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    defaultConfig {
+        applicationId = "com.example.MyTrader"
+        minSdkVersion flutter.minSdkVersion
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+        multiDexEnabled true // Recommended for desugaring
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+            // Optional: Enable code shrinking
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // Required for Java 8+ API desugaring support
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
+    
+    // Flutter and Firebase dependencies are automatically added
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+flutter {
+    source = "../.."
+}

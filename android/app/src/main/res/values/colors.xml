@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="ic_launcher_background">assets/logos/dark_app_icon2.jpg</color> -->
+    <color name="primaryColor">#FF5733</color>
+    <color name="ic_launcher_background">#FFFFFF</color> <!-- Use your desired background color -->
+
+</resources>

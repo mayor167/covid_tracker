@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "951704944209",
+    "project_id": "rchat-c795d",
+    "storage_bucket": "rchat-c795d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951704944209:android:ec943b487ce487e7990270",
+        "android_client_info": {
+          "package_name": "com.example.MyTrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951704944209-43vrf515mk0mqdk5f6v8g8bc2hmn929h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUc97_xKGSND_dE6xOaCjBXlQ0ZDUDXzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951704944209-43vrf515mk0mqdk5f6v8g8bc2hmn929h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "951704944209-nasjr26vhll311q1bh7hmv6n2pnk4bm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rchat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951704944209:android:413e185424ec545f990270",
+        "android_client_info": {
+          "package_name": "com.example.rchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951704944209-ou7a16e9j5qpkbcftn315qt4qtrhora0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rchat",
+            "certificate_hash": "16bc22fd2203313bbe9290e9103fae9f314f9bd6"
+          }
+        },
+        {
+          "client_id": "951704944209-43vrf515mk0mqdk5f6v8g8bc2hmn929h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUc97_xKGSND_dE6xOaCjBXlQ0ZDUDXzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951704944209-43vrf515mk0mqdk5f6v8g8bc2hmn929h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "951704944209-nasjr26vhll311q1bh7hmv6n2pnk4bm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rchat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
