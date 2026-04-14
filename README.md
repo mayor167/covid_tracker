@@ -14,6 +14,16 @@ Built as a technical assessment for the **Mobile App Developer** position at **e
 
 ---
 
+## Download APK
+
+Try the app on your Android device — no build tools required:
+
+[**Download COVID-19 Tracker (Release APK)**](https://github.com/mayor167/covid_tracker/releases/download/v1.0.0/app-release.apk)
+
+> Requires Android 5.0 (API 21) or higher. You may need to enable **Install from unknown sources** in your device settings.
+
+---
+
 ## Features
 
 - **Global Statistics** -- Displays total cases, active cases, recovered, and deaths as colour-coded summary cards with compact number formatting.
@@ -138,7 +148,7 @@ A **sealed exception hierarchy** ensures every failure mode is typed and handled
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/covid_tracker.git
+git clone https://github.com/mayor167/covid_tracker.git
 cd covid_tracker
 
 # Install dependencies
