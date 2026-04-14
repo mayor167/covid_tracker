@@ -9,7 +9,7 @@ Built as a technical assessment for the **Mobile App Developer** position at **e
 ## Dashboard Preview
 
 <p align="center">
-  <img src="screenshots/dashboard.png" alt="COVID-19 Tracker Dashboard" width="320" />
+  <img src="screenshots/dashboard.jpg" alt="COVID-19 Tracker Dashboard" width="320" />
 </p>
 
 ---
