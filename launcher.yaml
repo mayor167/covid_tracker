@@ -1,37 +1,10 @@
-flutter_native_splash: 
+flutter_native_splash:
   android: true
   ios: true
   web: false
   color: "#FFFFFF"
-  image: assets/logos/icon_logo_2.png
+  image: assets/logos/ehealth_logo.png
 
-  # branding: assets/logos/full_logo.png
-  # branding_mode: bottom  
-  # branding_bottom_padding: 24
-
-  #color_dark: "#042a49"
-  #background_image_dark: "assets/dark-background.png"
-  #image_dark: assets/splash-invert.png
-  #branding_dark: assets/dart_dark.png
-
-  # From Android 12 onwards, the splash screen is handled differently than in previous versions.
-  # Please visit https://developer.android.com/guide/topics/ui/splash-screen
-  # Following are specific parameters for Android 12+.
-  # android_12:
-  #   image: assets/logos/icon_logo_2.png
-
-    # Splash screen background color.
-    # color: "#FFFFFF"
-
-    # App icon background color.
-    #icon_background_color: "#111111"
-
-    # The branding property allows you to specify an image used as branding in the splash screen.
-    #branding: assets/dart.png
-
-    # The image_dark, color_dark, icon_background_color_dark, and branding_dark set values that
-    # apply when the device is in dark mode. If they are not specified, the app will use the
-    # parameters from above.  If there is no parameter above, the app will use the light mode values.
-    #image_dark: assets/android12splash-invert.png
-    #color_dark: "#042a49"
-    #icon_background_color_dark: "#eeeeee"
+  android_12:
+    image: assets/logos/ehealth_logo.png
+    color: "#FFFFFF"

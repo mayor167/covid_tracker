@@ -1,15 +1,14 @@
 plugins {
     id "com.android.application"
-    id 'com.google.gms.google-services' // FlutterFire
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin" // Must be last
 }
 
 android {
-    namespace = "com.example.MyTrader"
+    namespace = "com.example.covid_tracker"
 
-    compileSdk = flutter.compileSdkVersion.toInteger() // Ensure this is an integer (e.g., 34)
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 34
+    ndkVersion = "26.1.10909125"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -22,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.MyTrader"
+        applicationId = "com.example.covid_tracker"
         minSdkVersion flutter.minSdkVersion
         targetSdk = 34
         versionCode = 1
@@ -33,9 +32,8 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.debug
-            // Optional: Enable code shrinking
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+            shrinkResources false
         }
     }
 }

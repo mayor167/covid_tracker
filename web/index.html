@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html>
-
-<base href="$FLUTTER_BASE_HREF">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="COVID-19 Dashboard & Tracker">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="your_app_name">
+  <meta name="apple-mobile-web-app-title" content="Covid Tracker">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>your_app_name</title>
+  <title>Covid Tracker</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- Prefer light mode by default (Flutter web defaults to light theme) -->
   <meta name="color-scheme" content="light dark">
 </head>
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality -->
   <script>
-    // Use the template token so Flutter's build system replaces it with
-    // the correct service worker version. Avoid declaring a local
-    // variable manually (deprecated).
     var serviceWorkerVersion = '{{flutter_service_worker_version}}';
     var scriptLoaded = false;
     function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
+      if (scriptLoaded) return;
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
       scriptTag.src = 'main.dart.js';
@@ -42,7 +35,6 @@
     }
 
     if ('serviceWorker' in navigator) {
-      // Service workers are supported. Use them.
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('flutter_service_worker.js?v=' + serviceWorkerVersion);
         loadMainDartJs();

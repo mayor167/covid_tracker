@@ -12,6 +12,11 @@ subprojects {
 }
 subprojects {
     project.evaluationDependsOn(":app")
+    project.tasks.withType(JavaCompile).configureEach {
+        doFirst {
+            options.compilerArgs.removeAll(['-Werror'])
+        }
+    }
 }
 
 tasks.register("clean", Delete) {

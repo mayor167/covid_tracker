@@ -1,66 +1,62 @@
-name: flutter_app_boilerplate
-description: "A Clean Flutter Boilerplate App"
+name: covid_tracker
+description: "COVID-19 Dashboard & Tracker - Displays real-time global COVID-19 statistics with interactive charts."
 publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.3
+  sdk: ">=3.2.0 <4.0.0"
 
-#--------------- PACKAGES ------------------#
 dependencies:
   flutter:
     sdk: flutter
 
-  # Utility Packages
+  # Networking - HTTP client for API calls to disease.sh
   http: ^1.1.0
-  intl: ^0.20.2
-  logger: ^2.0.1
-  url_launcher: ^6.1.12
-  flutter_native_splash: ^2.4.3
-  smooth_page_indicator: ^1.2.0+3
-  lottie: ^3.1.2
-  flutter_launcher_icons: ^0.14.1
-  video_player: ^2.5.0
-  universal_html:
-  local_auth: ^2.1.6
-  shimmer: ^3.0.0
-  dash_flags: ^0.1.1
 
-  url_strategy: ^0.2.0
+  # Date formatting - Used for chart axis labels and timestamps
+  intl: ^0.18.1
+
+  # State Management - GetX for reactive state, DI, and routing
+  get: ^4.6.6
+
+  # Charts - Line chart and donut/pie chart rendering
+  fl_chart: ^0.63.0
 
   # Icons
-  iconsax: ^0.0.8
-  cupertino_icons: ^1.0.8
-
-  # State Management
-  get: ^4.6.5
-  get_storage: ^2.1.1
-
-  # UI
-  connectivity_plus: ^6.1.0
-
-  # Permissions
-  permission_handler: ^12.0.1
-
-  firebase_core:
-  shared_preferences: any
+  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^4.0.0
+
+  # Build tools - Launcher icon and splash screen generators
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.6
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logos/ehealth_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logos/ehealth_logo.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/logos/ehealth_logo.png"
+  windows:
+    generate: true
+    image_path: "assets/logos/ehealth_logo.png"
+  macos:
+    generate: true
+    image_path: "assets/logos/ehealth_logo.png"
 
 flutter:
   uses-material-design: true
 
-  #--------------- LOCAL ASSETS ------------------#
   assets:
     - assets/logos/
-    - assets/videos/
-    - assets/images/animations/
 
-  #--------------- LOCAL FONTS ------------------#
   fonts:
     - family: Poppins
       fonts:
@@ -79,6 +75,3 @@ flutter:
           weight: 600
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 800
-    - family: Roboto
-      fonts:
-        - asset: assets/fonts/Roboto-Regular.ttf

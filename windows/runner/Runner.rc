@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "MyTrader" "\0"
+            VALUE "FileDescription", "Covid Tracker" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "MyTrader" "\0"
+            VALUE "InternalName", "Covid Tracker" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "MyTrader.exe" "\0"
-            VALUE "ProductName", "MyTrader" "\0"
+            VALUE "OriginalFilename", "CovidTracker.exe" "\0"
+            VALUE "ProductName", "Covid Tracker" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
