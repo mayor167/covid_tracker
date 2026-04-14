@@ -175,6 +175,6 @@ This differencing is performed in `HistoricalModel.fromJson()` across 8 consecut
 
 ## Author
 
-**Ishola Olubunmi**
+**Oyeyemi Mayokun Adeniji**
 
 Built with Flutter for the eHealth4everyone Mobile App Developer assessment.
