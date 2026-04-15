@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'app/core/theme/app_theme.dart';
-import 'app/bindings/covid_binding.dart';
-import 'app/features/covid_dashboard/presentation/views/dashboard_view.dart';
+import 'covid_tracker_app/core/theme/app_theme.dart';
+import 'covid_tracker_app/bindings/covid_binding.dart';
+import 'covid_tracker_app/features/covid_dashboard/presentation/views/dashboard_view.dart';
 
 /// Application entry point.
 ///

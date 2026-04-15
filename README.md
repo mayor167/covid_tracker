@@ -43,7 +43,7 @@ The project follows **Clean Architecture** principles with clear separation of c
 ```
 lib/
   main.dart                          -- App entry point & GetMaterialApp setup
-  app/
+  covid_tracker_app/
     bindings/
       covid_binding.dart             -- GetX dependency injection (Repository -> UseCase -> Controller)
 
