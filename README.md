@@ -24,6 +24,16 @@ Try the app on your Android device — no build tools required:
 
 ---
 
+## Download IPA
+
+Try the app on your iOS device:
+
+[**Download COVID-19 Tracker (Release IPA)**](https://github.com/mayor167/covid_tracker/releases/download/v1.0.0/Runner.ipa)
+
+> Requires iOS 13.0 or higher. You may need to use a tool like [AltStore](https://altstore.io) or Apple Configurator to sideload the IPA onto your device.
+
+---
+
 ## Features
 
 - **Global Statistics** -- Displays total cases, active cases, recovered, and deaths as colour-coded summary cards with compact number formatting.
