@@ -20,7 +20,7 @@ Try the app on your Android device — no build tools required:
 
 [**Download COVID-19 Tracker (Release APK)**](https://github.com/mayor167/covid_tracker/releases/download/v1.0.0/app-release.apk)
 
-> Requires Android 5.0 (API 21) or higher. You may need to enable **Install from unknown sources** in your device settings.
+> Requires Android 5.0 (API 21) or higher. You may need to enable **Install from unknown sources** in your device settings..
 
 ---
 
